@@ -20,11 +20,6 @@ To deploy the pages and view the uploaded changes of the index.html file we go t
 
 -Click the environment link on the page and click the deployment to be able to view the changes on your browser of the uploaded work.
 
-## Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-
 ## Versioning
 We use SemVer for versioning. For the versions available, see the tags on this repository.
 
