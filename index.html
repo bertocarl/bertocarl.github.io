@@ -1,53 +1,312 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <title>Albert Carlos Omware Profile</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
 
+<!-- jQuery -->
+	<script src="css/anime/jquery-3.1.1.min.js"></script>
+	<script src="css/anime/jquery-ui.min.js"></script>
+	
+
+	<!-- For Animation -->
+	<script type="text/javascript" src="css/anime/animatescroll.min.js"></script>
+
+	<!-- App Styles -->
+	<link rel="stylesheet" href="css/styles.css" />
+	
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+	<!--/. Font Awesome v5 2018 -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
 </head>
 <body>
+  <header class="header">
+		
 
-<center><h1>Albert Carlos Omware</h1></center>
-<section>
-  <nav>
-    <img src="roll2.jpg" alt="Portfolio Picture" height="260" width="340" class="center">
-  </nav>
-</section>
-<p>I am an enthusiastic IT professional currently studying programming with Moringa School, having previously spent 5 years working as an IT Officer, giving me a good blend of enterprise and startup experience. </p>
-<p>I enjoyed resolving technical problems and working in a dynamic environment with a focus on good service delievery to clients and users of the systems.</p>
-<p>Besides work I also engage in sporting activities and I am part of the Kenya Rollball National Team men of which I joined in October 2013, and I have been actively involved till today. I have participated in many competitions and won different medals including personal achievements.</p>
-<header>
-  <h2>Education & Work History</h2>
-</header>
-<section>
-  <nav>
-    <ul>
-      <li><h2><a href="projects.html">Projects</a></h2></li>
-      <li><h2><a href="intrest.html">Intrests</a></h2></li>
-    </ul>
-  </nav>
-<article>
-    <h1>Education</h1>
-    <p><ul>
-        <li> 2008:  Inoorero University-Diploma in Information Communication & Technology</li>
-        <li> 2005:  Institute of Advanced Technology-Computer Hardware & Software maintenance course (A+)</li>
-	      <li> 2005:  Institute of Advanced Technology-Computer Networking and Security (N+)</li>
-        <li> 2004:  Le-Pic High School-Kenya Certificate of Secondary Education</li>
-        <li> 2000:  Nairobi Primary School-Kenya Certificate of Primary Education</li>
-    <h1>Work History</h1>
-    <p><ul>
-        <li> Nov 2014 - Oct 2017 Nakumatt Holdings LTD</li>
-        <li> JAN 2012 - AUG 2014 JM OHAS & Assosiation</li>
-        <li> JAN 2011 - NOV 2011 Yellow Moon Marketing</li>
-      </ul>
-</article>
-</section>
+		<a href="#" class="menu-trigger nav-trigger">
+			<i class="menu-trigger-bar top"></i>
 
-<footer>
-  <p>Copyright (c) 2019 bertocarl. All rights reserved</p>
-</footer>
+			<i class="menu-trigger-bar middle"></i>
 
+			<i class="menu-trigger-bar bottom"></i>
+		</a>
+
+		<div class="header-content">
+			<a href="#" class="close-trigger">
+				<i class="close-trigger-bar left"></i>
+
+				<i class="close-trigger-bar right"></i>
+			</a>
+
+			<div class="nav">
+				<ul>
+					<li>
+						<a href="#skills" class="link" id="btnSkills">Skills</a>
+						</li>
+					<li>
+						<a href="#projects" class="link" id="btnProjects">Projects</a>
+					</li>
+
+					<li>
+						<a href="#" class="link" onclick="openModal()">Contact</a>
+					</li>
+				</ul>
+			</div><!-- /.nav -->
+		</div><!-- /.header-content -->
+	</header><!-- /.header -->
+
+		<div class="cover-container">
+			<div class="container">
+				<div class="cover-inner">
+					<div class="cover-content">
+						<h1 class="cover-title">Albert Carlos Omware</h1><!-- /.cover-title -->
+
+						<div class="cover-entry">
+							<p>Fullstack Developer</p>
+						</div><!-- /.cover-entry -->
+
+						<div class="cover-actions" onclick="openModal();">
+							<a href="#" class="btn">
+								<span class="btn-text">About Me</span>
+
+								<div class="btn-mask"></div>
+
+								<span class="btn-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213"><path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+									</svg>
+								</span>
+							</a>
+						</div><!-- /.cover-actions -->
+					</div><!-- /.cover-content -->
+
+					<a href="#" class="hero-go-next no-smoothstate">
+						<div class="go-next-label">Works</div>
+
+						<span class="the-arrow arrow-down"></span>
+					</a>
+				</div><!-- /.cover-inner -->
+			</div><!-- /.container -->
+		</div><!-- /.cover-container -->
+	</div><!-- /.cover -->
+	
+	<div class="section-heading">
+		<p class="heading">PROJECTS</p><!-- /.heading -->
+
+		<p class="subheading">Latest Works</p><!-- /.subheading -->
+	</div><!-- /.section-heading -->
+	
+	<div class="animation-wrapper">
+		<ul class="case-studies-list section" data-anchor="projectsPage" id="projects">
+			<li>
+				<a href="https://awardz.herokuapp.com/" target="_blank" id="lato" style="background-image: url('css/images/temp/bikeshop.png');" class="case-study">
+				   <div class="case-study-mask"></div>
+
+				   <div class="case-study-reveal-mask"></div>
+
+				   <div class="case-study-mask-number">
+				      <div class="case-study-mask-back">01</div>
+
+				      <div class="case-study-mask-front">
+				         <div class="case-study-mask-overlay" data-index='01'>01</div>
+				      </div>
+				   </div>
+				   <div class="case-study-text-section">
+				      <h3 class="h2 case-study-title">Awwwardz</h3>
+
+				      <h5 class="case-study-subtitle">Duplicating Awwardz website</h5>
+
+				      <button class="btn">
+								<span class="btn-text">View More</span>
+
+								<div class="btn-mask"></div>
+
+								<span class="btn-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+										<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+									</svg>
+								</span>
+							</button>
+						</div>
+					</a>
+				</li>
+				
+				<li>
+				<a href="https://instapixel.herokuapp.com/" target="_blank" style="background-image: url('css/img/instaclone.jpg');" class="case-study">
+					<div class="case-study-mask"></div>
+
+					<div class="case-study-reveal-mask"></div>
+
+					<div class="case-study-mask-number">
+					  <div class="case-study-mask-back">02</div>
+
+					  <div class="case-study-mask-front">
+					     <div data-index="02" class="case-study-mask-overlay">02</div>
+					  </div>
+					</div>
+
+					<div class="case-study-text-section">
+					  <h3 class="h2 case-study-title">Instaclone</h3>
+
+					  <h5 class="case-study-subtitle">Duplicating Instagram Website</h5>
+
+					  <button class="btn">
+							<span class="btn-text">View More</span>
+
+							<div class="btn-mask"></div>
+
+							<span class="btn-icon">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+									<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+								</svg>
+							</span>
+						</button>
+					</div>
+				</a>
+			</li>
+			
+			<li>
+				<a href="https://bertocarl.github.io/gitSearcher/" target="_blank" id="la-francesca" style="background-image: url('css/img/skating.jpg');" class="case-study">
+				   <div class="case-study-mask"></div>
+
+				   <div class="case-study-reveal-mask"></div>
+
+				   <div class="case-study-mask-number">
+				      <div class="case-study-mask-back">03</div>
+				      
+				      <div class="case-study-mask-front">
+				         <div class="case-study-mask-overlay" data-index='03'>03</div>
+				      </div>
+				   </div>
+
+				   <div class="case-study-text-section">
+				      <h3 class="h2 case-study-title">Gitsearcher</h3>
+
+				      <h5 class="case-study-subtitle">Github Searcher</h5>
+
+				      <button class="btn">
+					<span class="btn-text">View More</span>
+
+					<div class="btn-mask"></div>
+							<span class="btn-icon">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+									<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+								</svg>
+							</span>
+						</button>
+					</div>
+				</a>
+		   </li>
+		</ul>
+	</div><!-- /.animation-wrapper -->
+	<div class="clearfix"></div><!-- /.clearfix -->
+	
+	<footer class="footer">
+		<div class="footer-content">
+			<a href="#" id="goToLogo" class="logo logo--white">
+				<img src="css/img/sprite/logo.png" alt="albert carlos">
+			</a>
+
+			<ul>
+				<a href="https://www.linkedin.com/in/albert-carlos-omware-aaa48943/" target="_blank" class="link">Linkedin</a>
+				
+				<a href="https://github.com/bertocarl" target="_blank" class="link">Github</a>
+				
+			</ul>
+			<p class="footer-copy">
+				&copy; 2019 Albert Carlos Omware - <a href="#" onclick="openModal()">Contact</a>
+			</p><!-- /.footer-copy -->
+		</div><!-- /.footer-content -->
+	</footer><!-- /.footer -->
+
+	<div class="modal modal-aboutme" id="aboutme">
+		<div class="modal-backdrop"></div>
+
+		<div class="modal-inner">
+			<div class="bg--white" id="bgWhite">
+				<h6 class="color-black">about me.</h6>
+
+				<div class="background-text">
+					About
+				</div><!-- /.background-text -->
+
+				<p class="sub-heading">Full Stack Developer</p><!-- /.sub-heading -->
+
+				<p>
+					Talented, enthusiastic and technically strong individual with web development and technical experience. I have real passion for coding, technology and software and possess proven ability of balancing multiple work streams within a fast paced, demanding environment. With excellent HTML, CSS, JavaScript and Python development skills, currently I’m seeking entry level Junior Front End Developer position with a vibrant company that will allow me to be part of a highly collaborative team, develop my technical skills and work on projects for challenging client requirements. For more information on my work, pre-existing skills and background experience please review my <a href="https://github.com/bertocarl" class="underlined">Github</a> profile.
+					<a href="" class="underlined" download>Here</a> is my downloadable resume.
+				</p>
+
+				<ul>
+					<li><span>Html</span></li>
+
+					<li><span>Css</span></li>
+
+					<li><span>Python(Django)</span></li>
+
+					<li><span>Bootstrap</span></li>
+
+					<li><span>JavaScript</span></li>
+
+					<li><span>Python(Flask)</span></li>
+
+					<li><span>Git</span></li>
+
+					<li><span>Github</span></li>
+				</ul>
+
+			
+			<div class="bg--dark" id="bgDark">
+				<div class="background-text">
+					Contact
+				</div><!-- /.background-text -->
+
+				<h6 class="color--white">Let's talk</h6>
+
+				<p class="sub-heading color--white">New projects, freelance inquiry.</p><!-- /.sub-heading -->
+				
+				<form method="POST" action="https://formspree.io/aomware@gmail.com">
+					<div class="form-body">
+						<label for="name">Name *</label>
+
+						<input type="text" name="name">
+
+						<label for="email">E-mail *</label>
+
+						<input type="email" name="email">
+						
+						<label for="message">Message *</label>
+
+						<textarea name="message" rows="5" name="message"></textarea>
+					</div>
+
+					<button type="submit" class="btn">
+						<span class="btn-text">Send Message</span>
+
+						<div class="btn-mask"></div>
+
+						<span class="btn-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+								<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+							</svg>
+						</span>
+					</button>
+				</form>
+
+				<div class="modal-close" onclick="closeModal()">
+					<span id="close-one"></span>
+					
+					<span id="close-two"></span>
+				</div><!-- /.modal-close -->
+			</div><!-- /.bg-/-dark -->
+		</div><!-- /.modal-inner -->
+	</div><!-- /#aboutme.modal modal-aboutme --> 
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+	<script src="css/anime/animations.min.js"></script>
+	<script src="css/anime/git "></script>
 </body>
 </html>
