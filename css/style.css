@@ -18,7 +18,7 @@ a {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background: #fff; }
+  background: #FFBC42; }
 
 ul {
   list-style: none; }
@@ -43,18 +43,18 @@ h6 {
 
 h1 {
   font-size: 6.5rem;
-  color: #fff; }
+  color: #FFBC42; }
 
 h2 {
   font-size: 3rem;
   letter-spacing: 3px;
-  color: #fff;
+  color: #FFBC42;
   text-transform: uppercase; }
 
 h3 {
   font-size: 2rem;
   font-style: italic;
-  color: #fff;
+  color: #FFBC42;
   font-weight: 100;
   letter-spacing: 2px; }
 
@@ -120,12 +120,12 @@ h6 {
         will-change: transform; }
       .header .header-content:before {
         transition-delay: .25s;
-        background-color: #f06449;
-        background: linear-gradient(270deg, #f06449, #ee2828);
+        /* background-color: #;
+        background: linear-gradient(270deg, #f06449, #ee2828); */
         z-index: 24; }
       .header .header-content:after {
         transition-delay: .15s;
-        background-color: #1c1d25;
+        background-color: #FFBC42;
         background: linear-gradient(270deg, #235aa6, #101b3b);
         z-index: 25; }
       .header .header-content .nav {
@@ -152,7 +152,7 @@ h6 {
         margin-left: 0; }
       .header .header-content .nav a {
         display: inline-block;
-        color: #fff;
+        color: #FFBC42;
         font-size: 1.6875em;
         padding: 12px 25px; }
       .header .header-content .nav a:hover:before, .header .header-content .nav a:hover:after {
@@ -262,7 +262,7 @@ h6 {
 .the-arrow {
   position: relative;
   display: inline-block;
-  background: #f3f3f3;
+  background: white;
   opacity: .8;
   height: 1px;
   width: 33px;
@@ -335,7 +335,7 @@ h6 {
         transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1) 0.15s;
         z-index: 1; }
       .nav ul .link:after {
-        background: #f25757;
+        background: #442B48;
         transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1);
         z-index: 2; }
 
@@ -352,7 +352,7 @@ h6 {
   padding-top: 130px;
   overflow: hidden;
   font-size: 20px;
-  color: #fff;
+  color: white;
   font-style: italic;
   /*Arrow Down*/ }
   .cover .cover-inner {
@@ -397,7 +397,7 @@ h6 {
     transform-style: preserve-3d;
     bottom: -10px;
     padding: 40px 20px;
-    color: #fff;
+    color: white;
     backface-visibility: hidden;
     transition: opacity .35s ease .7s;
     z-index: 7; }
@@ -569,7 +569,7 @@ h6 {
   position: absolute;
   left: 90px;
   bottom: 90px;
-  color: #fff;
+  color: #442B48;
   z-index: 10;
   max-width: 550px;
   -webkit-transform: scale(1) translateX(0);
@@ -613,7 +613,7 @@ h6 {
     font-size: 11.5625em;
     overflow: hidden;
     font-family: League Spartan,Helvetica,Arial,sans-serif;
-    color: #99999d;
+    color: #442B48;
     -webkit-transform: translateY(15px);
     transform: translateY(15px);
     opacity: 0;
@@ -989,7 +989,7 @@ h6 {
     text-align: left; }
     .modal-aboutme .bg--white .underlined,
     .modal-aboutme .bg--dark .underlined {
-      color: #f06449;
+      color: #442B48;
       text-decoration: none;
       font-weight: 500; }
   .modal-aboutme h6 {
@@ -1095,7 +1095,7 @@ h6 {
         outline: none;
         border-bottom: 2px solid silver;
         padding: 8px 5px;
-        color: #f06449;
+        color: #442B48;
         font-size: 1.2rem;
         font-weight: 300;
         z-index: 6;
@@ -1103,7 +1103,7 @@ h6 {
         transition: all ease-in .5s; }
         .modal-aboutme .bg--dark form input:focus,
         .modal-aboutme .bg--dark form textarea:focus {
-          border-color: #f06449; }
+          border-color: #442B48; }
       .modal-aboutme .bg--dark form textarea {
         resize: none; }
     .modal-aboutme .bg--dark .modal-close {
@@ -1114,7 +1114,7 @@ h6 {
       width: 38px;
       height: 38px; }
       .modal-aboutme .bg--dark .modal-close:hover span {
-        background-color: #f06449; }
+        background-color: #442B48; }
       .modal-aboutme .bg--dark .modal-close span {
         position: relative;
         left: 0;
@@ -1159,8 +1159,8 @@ h6 {
   font-size: .725em;
   letter-spacing: 3px;
   padding: 12px 20px;
-  background-color: #f06449;
-  background: linear-gradient(270deg, #f06449, #ef3636);
+  background-color: #442B48;
+  background: linear-gradient(270deg, #442B48);
   color: #fff;
   position: relative;
   font-style: normal;
