@@ -11,20 +11,9 @@
 
 	<title>Albert Carlos Omware</title>
 
-	<!-- FavIcon -->
-	<link rel="apple-touch-icon" sizes="57x57" href="css/images/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="css/images/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="css/images/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="css/images/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="css/images/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="css/images/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="css/images/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="css/images/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="css/images/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="css/images/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="css/images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="css/images/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="css/images/favicon/favicon-16x16.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link rel="manifest" href="/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="css/images/favicon/ms-icon-144x144.png">
@@ -133,7 +122,7 @@
 	<div class="animation-wrapper">
 		<ul class="case-studies-list section" data-anchor="projectsPage" id="projects">
 			<li>
-				<a href="https://awardz.herokuapp.com/" target="_blank" id="lato" style="background-image: url('css/images/temp/awwwardslogo.png');" class="case-study">
+				<div target="_blank" id="lato" style="background-image: url('css/images/temp/awwwardslogo.png');" class="case-study">
 				   <div class="case-study-mask"></div>
 
 				   <div class="case-study-reveal-mask"></div>
@@ -149,8 +138,8 @@
 				      <h3 class="h2 case-study-title">Awardz</h3>
 
 				      <h5 class="case-study-subtitle">Duplicating Awwardz website</h5>
-
-				      <button class="btn">
+					  
+				      <button class="btn" data-toggle="modal" data-target="#awModal">
 								<span class="btn-text">View More</span>
 
 								<div class="btn-mask"></div>
@@ -161,12 +150,41 @@
 									</svg>
 								</span>
 							</button>
+<!-- Modal -->
+<div class="modal fade" id="centralModalWarning" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-notify modal-warning" role="document">
+  <!--Content-->
+  <div class="modal-content">
+	<!--Header-->
+	<div class="modal-header">
+	  <p class="heading lead">Modal Warning</p>
+
+	  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<span aria-hidden="true" class="white-text">&times;</span>
+	  </button>
+	</div>
+
+	<!--Body-->
+	<div class="modal-body">
+	  <div class="text-center">
+		<i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis
+		  ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
+		  ab officiis totam.</p>
+	  </div>
+	</div>
+
+	
+  <!--/.Content-->
+</div>
+</div>
 						</div>
 					</a>
 				</li>
 				
 				<li>
-				<a href="https://instapixel.herokuapp.com/" target="_blank" style="background-image: url('css/images/temp/instagram.jfif');" class="case-study">
+				<a href="" target="_blank" style="background-image: url('css/images/temp/instagram.jfif');" class="case-study">
 					<div class="case-study-mask"></div>
 
 					<div class="case-study-reveal-mask"></div>
@@ -184,7 +202,7 @@
 
 					  <h5 class="case-study-subtitle">Duplicating Instagram Website</h5>
 
-					  <button class="btn">
+					  <button class="btn" data-toggle="modal" data-target="#instaModal">
 							<span class="btn-text">View More</span>
 
 							<div class="btn-mask"></div>
@@ -200,7 +218,7 @@
 			</li>
 			
 			<li>
-				<a href="https://bertocarl.github.io/gitSearcher/" target="_blank" id="la-francesca" style="background-image: url('css/images/temp/gitsearch.png');" class="case-study">
+				<a href="" target="_blank" id="la-francesca" style="background-image: url('css/images/temp/gitsearch.png');" class="case-study">
 				   <div class="case-study-mask"></div>
 
 				   <div class="case-study-reveal-mask"></div>
@@ -218,7 +236,7 @@
 
 				      <h5 class="case-study-subtitle">Github Search application that displays github profiles</h5>
 
-				      <button class="btn">
+				      <button class="btn" data-toggle="modal" data-target="#gitsearchModal">
 					<span class="btn-text">View More</span>
 
 					<div class="btn-mask"></div>
@@ -266,10 +284,9 @@
 
 				<p class="sub-heading">Fullstack Web Developer</p><!-- /.sub-heading -->
 
-				<p>I am a talented, enthusiastic and technically strong.</p>
-				<p>I am passionate about coding, technology and software and possess proven ability of balancing multiple work streams within a fast paced, demanding environment.</p>
-				<p>I love skating and play a sport known as Rollball for the Kenyan National Team</p> 
-				<p>I enjoy a haughty laugh and love to travel a lot having visited a few countries around the world during my time playing the skating sport.</p>
+				<p>I am a talented, enthusiastic and a team player.</p>
+				<p>Passionate about coding, technology and software and possess proven ability of balancing multiple work streams within a fast paced, demanding environment.</p>
+				<p>I love skating, enjoy a haughty laugh and love to travel a lot having visited a few countries around the world during my time playing the skating sport.</p>
 				
 				
 				
