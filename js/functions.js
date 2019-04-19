@@ -18,7 +18,69 @@ const closeModal = () => {
 	bgDark.style.transform = 'translateY(-200%)';
 	bgWhite.style.transform = 'translateY(200%)';
 }
+//Awards modal
+const openModalaw = () =>{
+	const target = document.querySelector('#awardz');
+	const bgWhite = document.querySelector('#bgWhite');
+	const bgDark = document.querySelector('#bgDark');
 
+	target.classList.add('modal-awardz');
+	bgDark.style.transform = 'translateY(0%)';
+	bgWhite.style.transform = 'translateY(0%)';
+
+}
+
+const closeModalaw = () => {
+	const target = document.querySelector('#awardz');
+	const bgWhite = document.querySelector('#bgWhite');
+	const bgDark = document.querySelector('#bgDark');
+
+	target.classList.remove('modal-awardz');
+	bgDark.style.transform = 'translateY(-200%)';
+	bgWhite.style.transform = 'translateY(200%)';
+}
+//Instagram 
+const openModalinsta = () =>{
+	const target = document.querySelector('#insta');
+	const bgWhite = document.querySelector('#bgWhite');
+	const bgDark = document.querySelector('#bgDark');
+
+	target.classList.add('modal-insta');
+	bgDark.style.transform = 'translateY(0%)';
+	bgWhite.style.transform = 'translateY(0%)';
+
+}
+
+const closeModalinsta = () => {
+	const target = document.querySelector('#insta');
+	const bgWhite = document.querySelector('#bgWhite');
+	const bgDark = document.querySelector('#bgDark');
+
+	target.classList.remove('modal-insta');
+	bgDark.style.transform = 'translateY(-200%)';
+	bgWhite.style.transform = 'translateY(200%)';
+}
+//Gitsearcher
+const openModalgit = () =>{
+	const target = document.querySelector('#gitsearch');
+	const bgWhite = document.querySelector('#bgWhite');
+	const bgDark = document.querySelector('#bgDark');
+
+	target.classList.add('modal-git');
+	bgDark.style.transform = 'translateY(0%)';
+	bgWhite.style.transform = 'translateY(0%)';
+
+}
+
+const closeModalgit = () => {
+	const target = document.querySelector('#gitsearch');
+	const bgWhite = document.querySelector('#bgWhite');
+	const bgDark = document.querySelector('#bgDark');
+
+	target.classList.remove('modal-git');
+	bgDark.style.transform = 'translateY(-200%)';
+	bgWhite.style.transform = 'translateY(200%)';
+}
 // Function to calculate roughly speed of cursor on desktop
 let calculateSpeed = () => {
 	let lastmousex = -1;

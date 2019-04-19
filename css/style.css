@@ -942,12 +942,6 @@ h6 {
       margin-left: 12px !important; } }
 
 /*  Modals  */
-.modal fade {
-position: fixed;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-}
 .modal-aboutme {
   visibility: hidden;
   opacity: 0; }
