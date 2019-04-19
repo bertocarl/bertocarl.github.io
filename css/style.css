@@ -69,6 +69,7 @@ h6 {
   text-transform: capitalize;
   font-weight: bolder; }
 
+
 /*Header logo + navbar*/
 .header {
   position: absolute;
@@ -885,15 +886,15 @@ h6 {
   text-align: center;
   /*Making it with higher brightness and removing colors*/
   /*Container*/ }
-  .footer .logo--white {
-    filter: grayscale(1) brightness(1.5) !important; }
+  /* .footer .logo--white {
+    filter: grayscale(1) brightness(1.5) !important; } */
   .footer .footer-content {
     font-size: 1.5em; }
     .footer .footer-content ul {
       margin-bottom: 15px; }
       .footer .footer-content ul a {
         position: relative;
-        color: #f3f3f3;
+        color: #FFBC42;
         font-size: 1.125em;
         padding-bottom: 4px;
         font-weight: 600;
@@ -911,7 +912,7 @@ h6 {
         height: 3px;
         width: 0; }
       .footer .footer-content ul a:before {
-        background: #235aa6;
+        background: #FFBC42;
         transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1) 0.15s;
         z-index: 1; }
       .footer .footer-content ul a:after {
@@ -925,11 +926,13 @@ h6 {
       .footer .footer-content ul a + a {
         margin-left: 30px; }
   .footer .footer-copy {
-    color: #f3f3f3;
+    color: #FFBC42;
     opacity: .8;
     font-size: 0.75em; }
     .footer .footer-copy a {
-      color: #f3f3f3; }
+      color: #FFBC42; }
+      .footer .footer-copy p {
+        color: #FFBC42; }
 
 /*Media Query for Mobile*/
 @media only screen and (max-width: 25em) {
@@ -955,7 +958,6 @@ h6 {
   top: 0;
   bottom: 0;
   width: 100%;
-  margin: 0;
   text-align: center;
   z-index: 1000;
   overflow: hidden;
@@ -963,6 +965,7 @@ h6 {
   font-size: 15px;
   display: flex;
   align-items: center;
+  
   /*Modal with White Background*/
   /*Modal with Black Background*/ }
   .modal-aboutme .modal-backdrop {
@@ -1201,8 +1204,8 @@ h6 {
     transform: translateX(-110%); }
   .btn .btn-mask:after {
     width: 80%;
-    background-color: #26408b;
-    background: linear-gradient(270deg, #235aa6, #213777);
+    background-color: #FFBC42;
+    background: linear-gradient(270deg, #FFBC42);
     transition: -webkit-transform 0.6s cubic-bezier(0.694, 0.048, 0.335, 1);
     transition: transform 0.6s cubic-bezier(0.694, 0.048, 0.335, 1);
     transition: transform 0.6s cubic-bezier(0.694, 0.048, 0.335, 1), -webkit-transform 0.6s cubic-bezier(0.694, 0.048, 0.335, 1);
