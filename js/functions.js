@@ -19,7 +19,7 @@ const closeModal = () => {
 	bgWhite.style.transform = 'translateY(200%)';
 }
 
-}
+
 // Function to calculate roughly speed of cursor on desktop
 let calculateSpeed = () => {
 	let lastmousex = -1;
