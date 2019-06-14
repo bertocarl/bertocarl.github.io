@@ -995,7 +995,7 @@ h6 {
     text-align: left; }
     .modal-aboutme .bg--white .underlined,
     .modal-aboutme .bg--dark .underlined {
-      color: #442B48;
+      color: #FFBC42;
       text-decoration: none;
       font-weight: 500; }
   .modal-aboutme h6 {
@@ -1101,7 +1101,7 @@ h6 {
         outline: none;
         border-bottom: 2px solid silver;
         padding: 8px 5px;
-        color: #442B48;
+        color: #FFBC42;
         font-size: 1.2rem;
         font-weight: 300;
         z-index: 6;
@@ -1109,7 +1109,7 @@ h6 {
         transition: all ease-in .5s; }
         .modal-aboutme .bg--dark form input:focus,
         .modal-aboutme .bg--dark form textarea:focus {
-          border-color: #442B48; }
+          border-color: #FFBC42; }
       .modal-aboutme .bg--dark form textarea {
         resize: none; }
     .modal-aboutme .bg--dark .modal-close {
