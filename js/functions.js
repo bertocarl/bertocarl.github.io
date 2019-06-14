@@ -115,6 +115,7 @@ const animations = () => {
 // SMooth Scroll 
 const smoothLinks = () => {
 	const btnProjects = document.querySelector('#btnProjects');
+	const btnSkills = document.querySelector('#btnSkills');
 	const btnHead     = document.querySelector('#goToLogo');
 	const btnArrow    = document.querySelector('.hero-go-next');
 	const secProjects = document.querySelector('#projects');
@@ -124,6 +125,10 @@ const smoothLinks = () => {
 		$(secProjects).animatescroll({scrollSpeed:1200, easing:'easeInOutBack', padding: 215});
 	});
 	
+	btnSkills.addEventListener('click', () =>{
+		$(secSkills).animatescroll({scrollSpeed:1200, easing:'easeInOutBack', padding: 215});
+	});
+
 	btnArrow.addEventListener('click', () => {
 		$(secProjects).animatescroll({scrollSpeed:1300, easing:'easeInQuad', padding: 215});
 	});
