@@ -59,7 +59,10 @@ h3 {
   letter-spacing: 2px; }
 
 h4 {
-  font-size: 3.5rem; }
+  font-size: 3.5rem;
+  color: #442B48;
+  letter-spacing: 3px;
+  font-weight: bold; }
 
 h5 {
   font-size: 3rem; }
@@ -880,7 +883,7 @@ h6 {
     width: 100% !important; } }
 
 .footer {
-  background-color: #1c1d25;
+  background-color: #442B48;
   width: 100%;
   padding: 8% 0;
   text-align: center;
